@@ -1,6 +1,9 @@
 # 그래픽 레코딩
 
 ## 원서 정보
+
+!(원서 표지)[https://images-na.ssl-images-amazon.com/images/I/51VtIdZoIbL._SX362_BO1,204,203,200_.jpg]
+
 * 도서명: はじめてのグラフィックレコーディング
 * ISBN: 978-4-7981-6488-5
 * 출판사: https://www.shoeisha.co.jp/book/detail/9784798164885
