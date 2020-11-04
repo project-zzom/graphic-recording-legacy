@@ -1,6 +1,7 @@
-# 번역서 정보 템플릿 (공개용)
+# 그래픽 레코딩
 
-## 접속 방법
-
-* https://zzom.io/프로젝트이름/
-
+## 원서 정보
+* 도서명: はじめてのグラフィックレコーディング
+* ISBN: 978-4-7981-6488-5
+* 출판사: https://www.shoeisha.co.jp/book/detail/9784798164885
+* 아마존: https://www.amazon.co.jp/dp/4798164887/ref=cm_sw_em_r_mt_dp_lEXCFbD87QZEH
