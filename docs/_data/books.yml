@@ -1,0 +1,27 @@
+translated:
+  title:
+    main: 인공지능을 위한 수학
+    sub: 꼭 필요한 것만 골라 배우는 인공지능 맞춤 수학
+  description:
+    short: 머신러닝·딥러닝의 출발점, 수학의 기초부터 튼튼하게!
+    long: 인공지능 프로그래밍에 모든 수학이 사용되는 것은 아닙니다. 이 책은 실제로 인공지능에 쓰이는 꼭 필요한 수학만 기초부터 탄탄하게 다루고 있습니다. 이어서 대표적인 인공지능 알고리즘에 수학이 어떻게 활용되는지 하나하나 살펴봅니다. 인공지능에 관심이 있는 분이라면 누구나 이 책을 출발점으로 삼아 그동안 어렵다고 느꼈던 머신러닝, 딥러닝의 원리와 수식을 다시 바라보고 만끽할 수 있을 것입니다.
+  publisher: 
+    name: 프리렉
+    url: https://freelec.co.kr/book/%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5%ec%9d%84-%ec%9c%84%ed%95%9c-%ec%88%98%ed%95%99/
+  cover:
+    url: /assets/images/cover-translated.jpg
+  isbn-13: 9788965402282
+  
+original:
+  title:
+    main: 人工知能プログラミングのための数学がわかる本
+    sub: 부제목
+  description:
+    short: この1冊で人工知能の数学がゼロからわかる!
+    long: 大人気「10秒で始める人工知能プログラミング学習サービス」の代表者がおくる、人工知能プログラミングに必要な数学を、やさしく学ぶ参考書が登場! キホンのキホンからおさらいするから、ニガテな人でも大丈夫!
+  publisher:
+    name: KADOKAWA
+    url: https://www.kadokawa.co.jp/product/321708000339/
+  cover:
+    url: /assets/images/cover-original.jpg
+  isbn-13: 9784046021960
