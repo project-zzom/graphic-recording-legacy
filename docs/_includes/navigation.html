@@ -2,5 +2,5 @@
     {% for item in site.data.navigation %}
         <a href="{{ item.link | relative_url}}" {% if page.url == item.link %}style="font-weight: bold;"{% endif %} target="{{ item.target }}">{{ item.name }}</a> / 
     {% endfor %}
-    <a href="{{ site.github.issues_url }}/new/choose/" target="_blank">고객 지원</a>
+    <a href="{{ site.github.repository_url }}/discussions/" target="_blank">고객 지원</a>
 </nav>

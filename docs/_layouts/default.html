@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: " ko-KR " }}">
 <head>
+    {% if site.google_analytics %}
+    {% if jekyll.environment == 'production' %}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '{{site.google_analytics}}');
+    </script>
+    {% endif %}
+    {% endif %}    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1"> {% seo %}
@@ -40,12 +52,12 @@
 
             {% if site.github.is_project_page %}
             <p class="view">
-                <a href="{{ site.github.repository_url }}">GitHub 프로젝트 살펴보기<br/><small>{{ site.github.repository_nwo }}</small></a>
+                <a href="{{ site.github.repository_url }}" target="_blank">GitHub 프로젝트 살펴보기<br/><small>{{ site.github.repository_nwo }}</small></a>
             </p>
             {% endif %} 
             {% if site.github.is_user_page %}
             <p class="view">
-                <a href="{{ site.github.owner_url }}">GitHub 프로파일 살펴보기</a>
+                <a href="{{ site.github.owner_url }}" target="_blank">GitHub 프로파일 살펴보기</a>
             </p>
             {% endif %}
         </header>
@@ -58,16 +70,16 @@
             <div>
                 <small>
                 {% if site.github.is_project_page %}
-                This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>
+                This project is maintained by <a href="{{ site.github.owner_url }}" target="_blank">{{ site.github.owner_name }}</a>
                 {% endif %}
-                <br/>Hosted on <a href="https://pages.github.com/">GitHub pages</a>
-                <br/>Theme by <a href="https://github.com/orderedlist">orderedlist</a>
+                <br/>Hosted on <a href="https://pages.github.com/" target="_blank">GitHub pages</a>
+                <br/>Theme by <a href="https://github.com/orderedlist" target="_blank">orderedlist</a>
                 </small>
             </div>
         </footer>
     </div>
     <script src="{{ " /assets/js/scale.fix.js " | relative_url }}"></script>
-    {% if site.google_analytics %}
+    <!-- {% if site.google_analytics %}
     <script>
         (function(i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
@@ -83,6 +95,6 @@
         ga('create', '{{ site.google_analytics }}', 'auto');
         ga('send', 'pageview');
     </script>
-    {% endif %}
+    {% endif %} -->
 </body>
 </html>
