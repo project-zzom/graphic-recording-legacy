@@ -7,7 +7,7 @@ paginate_path: "/news/page:num"
 
 google_analytics: 'UA-192688751-1'
 adsense: "enabled"
-adsense-data-ad-client: "pub-6746305336565036"
+adsense-data-ad-client: "ca-pub-5050141342916334"
 theme: jekyll-theme-minimal
 plugins:
   - "jekyll-github-metadata"
