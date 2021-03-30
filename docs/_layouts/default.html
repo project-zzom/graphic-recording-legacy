@@ -13,9 +13,8 @@
     </script>
     {% endif %}
     {% endif %}
-    {% if site.adsense %}
-    <script data-ad-client="{{site.adsense-data-ad-client}} async src="https://pagead2.googlesyndication.com/
-pagead/js/adsbygoogle.js"></script>
+    {% if site.adsense == "enabled" %}
+    <script data-ad-client="{{site.adsense-data-ad-client}} async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     {% endif %}
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
