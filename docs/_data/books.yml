@@ -1,4 +1,4 @@
-translated:
+ko:
   title:
     main: 처음 배우는 그래픽 레코딩
     sub: 말과 생각을 그림으로 기록한다
@@ -9,10 +9,10 @@ translated:
     name: ZZOM
     url: https://zzom.io/
   cover:
-    url: /assets/images/cover-translated.jpg
+    url: /assets/images/cover-ko.jpg
   isbn-13: 미정
   
-original:
+jp:
   title:
     main: はじめてのグラフィックレコーディング
     sub: 考えを図にする、会議を絵にする。
@@ -21,7 +21,7 @@ original:
     long: 本書は、どんな人でもすぐに始められるグラフィックレコーディングのワークブックです。グラフィックレコーディングは、様々なビジネスシーンで役立つコミュニケーション技術として注目を集めています。思考や対話をリアルタイムに可視化し、認識の共有や問題の発見など、さまざまなコミュニケーションを促します。ビジュアルシンキングの基本から、伝わる図や絵の描き方、ことばの書き方、話の聞き方、さらに練習や実践にも便利なiPadの活用法まで、グラフィックレコーディングに必要な知識とスキルが一冊で学べます。
   publisher:
     name: 翔泳社
-    url: https://www.amazon.co.jp/dp/4798164887/
+    url: https://www.amazon.co.jp/dp/B08CK437LG/
   cover:
-    url: /assets/images/cover-original.jpg
+    url: /assets/images/cover-jp.jpg
   isbn-13: 978-4798164885

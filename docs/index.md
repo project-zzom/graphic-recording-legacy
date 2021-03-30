@@ -1,26 +1,30 @@
-## 번역서 정보 (준비 중)
+## 번역서 정보
 
-> {{ site.data.books.translated.description.long }}
+> {{ site.data.books.ko.description.long }}
 
-* 도서명: [{{ site.data.books.translated.title.main }}]()
-* 부제: [{{ site.data.books.translated.title.sub }}]()
-* 번역자: {% for author in site.data.authors-translated %}[{{ author.name }}]({{ author.profile }}){% unless forloop.last%}, {% endunless %}{% endfor %}
-* 출판사: [{{ site.data.books.translated.publisher.name }}]({{ site.data.books.translated.publisher.url }})
+* 도서명: {{ site.data.books.ko.title.main }}
+* 부제: {{ site.data.books.ko.title.sub }}
+* 번역자: {% for author in site.data.authors-ko %}<a href="{{ author.profile }}" target="_blank">{{ author.name }}</a>{% unless forloop.last%}, {% endunless %}{% endfor %}
+* 출판사: <a href="{{ site.data.books.ko.publisher.url }}" target="_blank">{{ site.data.books.ko.publisher.name }}</a>
 
 ***
 
-## 새소식  (준비 중)
+## 판매처
 
-<ul>
+출간 준비 중입니다.
+
+<!-- {% for store in site.data.stores-ko %}<a href="{{ store.link }}" target="{{ store.target }}">{{ store.name }}</a>{% unless forloop.last%} / {% endunless %}{% endfor %} -->
+
+***
+
+## 새소식 
+
+출간 준비 중입니다.
+
+<!-- <ul>
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
-</ul>
-
-***
-
-## 판매처 (준비 중)
-
-{% for store in site.data.stores-translated %}<a href="{{ store.link }}" target="{{ store.target }}">{{ store.name }}</a>{% unless forloop.last%} / {% endunless %}{% endfor %}
+</ul> -->

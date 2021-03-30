@@ -1,11 +1,21 @@
 @import "fonts";
 @import "rouge-github";
+// @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Sawarabi+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Noto+Sans+KR&display=swap');
+
 body {
     background-color: #fff;
     padding: 50px;
-    font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+* {
     color: #727272;
-    font-weight: 400;
+    // color: black;
+    // font-family: 'Nanum Myeongjo', 'Sawarabi Mincho', sans-serif;
+    font-family: 'Kosugi Maru', 'Noto Sans KR', sans-serif;
+    line-height: 1.5em;
+    word-wrap: break-word;
+    word-break: keep-all;
 }
 
 h1,
@@ -39,7 +49,7 @@ p.author {
 h1,
 h2,
 h3 {
-    line-height: 1.1;
+    // line-height: 1.1em;
 }
 
 h1 {
@@ -88,7 +98,7 @@ blockquote {
     border-left: 1px solid #e5e5e5;
     margin: 0;
     padding: 0 0 0 20px;
-    font-style: italic;
+    // font-style: italic;
 }
 
 code,
@@ -310,3 +320,8 @@ screen and (max-width: 480px) {
         color: #444;
     }
 }
+
+#books-description-short {
+    margin-top: 10px;
+}
+

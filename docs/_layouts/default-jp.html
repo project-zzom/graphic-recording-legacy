@@ -24,14 +24,14 @@
     <![endif]-->
 </head>
 
-<body>
+<body class="wf-sawarabimincho">
     <div class="wrapper">
         <header>
-            <h1><a href="{{ "/" | absolute_url }}">{{ site.data.books.ko.title.main }}</a></h1>
-            {% if site.data.books.ko.cover.url %}
-            <img class="cover" src="{{ site.data.books.ko.cover.url | relative_url }}" alt="Cover" width="100%"/> 
+            <h1><a href="{{ "/" | absolute_url }}">{{ site.data.books.jp.title.main }}</a></h1>
+            {% if site.data.books.jp.cover.url %}
+            <img class="cover" src="{{ site.data.books.jp.cover.url | relative_url }}" alt="Cover" width="100%"/> 
             {% endif %}
-            <div id="books-description-short" class="center">{{ site.data.books.ko.description.short }}</div>
+            <div id="books-description-short" class="center">{{ site.data.books.jp.description.short }}</div>
         </header>
         <section>
             {% include navigation.html %}
