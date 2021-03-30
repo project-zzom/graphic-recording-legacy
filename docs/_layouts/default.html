@@ -12,7 +12,11 @@
       gtag('config', '{{site.google_analytics}}');
     </script>
     {% endif %}
-    {% endif %}    
+    {% endif %}
+    {% if site.adsense %}
+    <script data-ad-client="{{site.adsense-data-ad-client}} async src="https://pagead2.googlesyndication.com/
+pagead/js/adsbygoogle.js"></script>
+    {% endif %}
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1"> {% seo %}
