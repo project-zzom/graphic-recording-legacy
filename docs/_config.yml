@@ -8,7 +8,9 @@ paginate_path: "/news/page:num"
 google_analytics: 'UA-192688751-1'
 adsense: "enabled"
 adsense-data-ad-client: "ca-pub-5050141342916334"
-adsense-data-ad-slot: "9543862036"
+adsense-data-ad-slot-vertical: "9543862036"
+adsense-data-ad-slot-horizontal: "2009821092"
+adsense-data-ad-slot-square: "1542083085"
 theme: jekyll-theme-minimal
 plugins:
   - "jekyll-github-metadata"
