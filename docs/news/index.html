@@ -5,19 +5,21 @@ title: 새소식
 
 <h2>새소식</h2>
 
+출간 준비 중입니다.
+
 <!-- This loops through the paginated posts -->
-{% for post in paginator.posts %}
-  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+<!-- {% for post in paginator.posts %}
+  <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
   <p class="author">
     <span class="date">{{ post.date | date: "%Y년 %m월 %d일" }} / {{ post.author | default: site.author }}</span>
   </p>
   <div class="content">
     {{ post.excerpt }}
   </div>
-{% endfor %}
+{% endfor %} -->
 
 <!-- Pagination links -->
-<div class="pagination">
+<!-- <div class="pagination">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path }}" class="previous">
       Previous
@@ -33,4 +35,4 @@ title: 새소식
   {% else %}
     <span class="next ">다음</span>
   {% endif %}
-</div>
+</div> -->
